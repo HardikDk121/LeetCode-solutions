@@ -8,11 +8,13 @@ class Solution:
                 if  s[i] in Hash1:
                     Hash1[s[i]]+=1
                     
+                else:
+                    Hash1[s[i]]=1
+                        
                 if t[i] in Hash2:
                     Hash2[t[i]]+=1 
                 
                 else:
-                    Hash1[s[i]]=1
                     Hash2[t[i]]=1
                 
  
