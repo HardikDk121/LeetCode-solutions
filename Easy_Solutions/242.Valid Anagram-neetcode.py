@@ -7,8 +7,8 @@ class Solution:
         for i in range(len(s)):
             Hash1[s[i]]=1+Hash1.get(s[i],0)
             Hash2[t[i]]=1+Hash2.get(t[i],0)
-        for j in range(len(s)):
-            if Hash1[c]!=Hash2.get(c,0):
+        for j in range(len(s)):w
+            if Hash1[j]!=Hash2.get(j,0):
                 return False
         return True
 S1=Solution()

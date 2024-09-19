@@ -1,4 +1,7 @@
 class Solution:
+
+    def groupAnagrams(self, strs):
+        
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s)==len(t):
             Hash1={}
@@ -27,9 +30,9 @@ class Solution:
                 return False
         else:
             return False        
-S1=Solution()
-print(S1.isAnagram("anagram","nagaram"))         
 
             
             
         
+S1=Solution()
+print(S1.groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
