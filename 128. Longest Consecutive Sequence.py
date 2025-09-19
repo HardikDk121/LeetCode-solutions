@@ -1,6 +1,5 @@
 class Solution:
     def longestConsecutive(self, nums):
-        '''i know spelling of index is wrong i had to do it so i can use function'''
    
         Indx=0
         
